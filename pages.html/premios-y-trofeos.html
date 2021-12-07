@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Premios y trofeos de Juan Roman Riquelme</title>
+</head>
+<body class="body">
+    <header id="inicio" class="header"><h1>Premios y Trofeos</h1></header>
+    <nav class="nav">
+        <ul>
+            <li class="nav__item"><a class="Menu__itemVinculo" href="../index.html"><h4>Inicio</h4></a></li>
+            <li class="nav__item"><a class="Menu__itemVinculo" href="./biografia.html"><h4>Biografía</h4></li></a>
+            <li class="nav__item"><a class="Menu__itemVinculo" href="./goles.html"><h4>Goles</h4></li></a>
+            <li class="nav__item"><a class="Menu__itemVinculo" href="./premios-y-trofeos.html"><h4>Premios y trofeos</h4></li></a>
+            <li class="nav__item"><a class="Menu__itemVinculo" href="./fotos-y-videos.html"><h4>Fotos y videos</h4></li></a>    
+        </ul>
+    </nav>
+    <div class="div__data">
+        <ul class="div__data">
+            <li class="div__dataItems"> 
+                <h3>A Nivel Selección</h3>
+            </li>
+            <ul>
+                <li class="div__dataSubitems"><h4 >Campeon Mundial Sub'20</h4></li>
+                    <ul>
+                        <li class="div__dataSubsubitems"><h5>Año 1997</h5></li>
+                    </ul>
+                <li class="div__dataSubitems"><h4>Medalla Olimpica</h4></li>
+                    <ul>
+                        <li class="div__dataSubsubitems"><h5>Año 2007/2008</h5></li>
+                    </ul>    
+            </ul>
+            <li>
+                <h3 class="div__dataItems div__dataItems--espacio">A Nivel Club</h3>
+            </li>
+                <ul>
+                    <li class="div__dataSubitems"><h4>Copa Intercontinental</h4></li>
+                        <ul>
+                            <li class="div__dataSubsubitems"><h5>Año 2000</h5></li>
+                        </ul>
+                    <li class="div__dataSubitems"><h4>Recopa Sudamericana</h4></li>
+                        <ul>
+                            <li class="div__dataSubsubitems"><h5>Año 2007/2008</h5></li>
+                        </ul>
+                    <li class="div__dataSubitems"><h4>Copa Libertadores</h4></li>
+                        <ul>
+                            <li class="div__dataSubsubitems"><h5>Año 1999/2000</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2000/2001</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2006/2007</h5></li>
+                        </ul>
+                    <li class="div__data--subitems"><h4>Torneo Local Argentino</h4></li>
+                        <ul>
+                            <li class="div__dataSubsubitems"><h5>Año 1998</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 1999</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2000</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2008</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2011</h5></li>
+                        </ul>
+                    <li class="div__dataSubitems"><h4>Mejor Futbolista Argentino</h4></li>
+                        <ul>
+                            <li class="div__dataSubsubitems"><h5>Año 2000</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2001</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2008</h5></li>
+                            <li class="div__dataSubsubitems"><h5>Año 2011</h5></li>
+                        </ul>
+                    </ul>
+                </ul>
+    </div>
+    <footer class="footer">
+            <h2 class="footer__titulo">Envianos tus comentarios con respecto a nuestra página y nosotros te estaremos contactando</h4><br>
+                <form action="servidor.php" method="post">
+<!--Sé que no va a ir a ningun lado la información pero quería completar esto-->                    
+                    <label class="footer__mail" for="Mail">Su Email:</label>
+                    <input class="footer__mailInput" type="email" name="Mail" placeholder="ejemplo@hotmail.com" required>
+                    <div class="footer__paisesMenu">
+                        <label class="footer__paises" for="">De qué país eres?</label>
+                            <select name="País" id="País">
+                                <option disable selected> Elija su pais </option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                    </div>    
+                    <textarea class="footer__textarea" name="Opiniones" id="Opinion" cols="30" rows="10">
+                    </textarea>
+                    <input class="footer__botones" type="submit">
+                    <input class="footer__botones" type="reset" value="Borrar todo">
+                </form>
+        <div class="footer__vinculoPosicion">  
+            <a class="footer__vinculoArriba" href="#inicio">Volver arriba</a>
+            <a class="footer__vinculoInicio" href="../index.html">Volver a Inicio</a>
+        </div>  
+    </footer>
+</body>
+</html>
