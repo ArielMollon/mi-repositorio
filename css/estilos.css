@@ -17,6 +17,25 @@
     padding: 30px;
     margin-bottom: 15px;
     color: #f3b229;
+    animation-name: headerAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes headerAparicion {
+    0%{
+        top: -200;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: -75px
+    }
+    100%{
+        top: 0px;
+    }
 }
 
 .nav{
@@ -27,7 +46,26 @@
     display: inline-block;
     width: 100%;
     margin: auto;
-    text-align: right;
+    text-align: left;
+    animation-name: navAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes navAparicion {
+    0%{
+        left: -200;
+    }
+    50%{
+        left: -100px;
+    }
+    75%{
+        left: -75px
+    }
+    100%{
+        left: 0px;
+    }
 }
 .div__data{
     margin-top: 30px;
@@ -39,6 +77,25 @@
     color: #f3b229;
     padding: 5px;
     line-height: 25px;
+    animation-name: divAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes divAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .div__dataItems{
     margin-left: 8px;
@@ -67,6 +124,25 @@
     padding: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    animation-name: articleAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes articleAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .article__titulo{
     color: #f3b229;
@@ -95,7 +171,25 @@
     font-style: italic;
     text-indent: 20px;
     word-spacing: 6px;
-    
+    animation-name: parrafoAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes parrafoAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .parrafo__abajo--espacio{
     margin-bottom: 70px;
@@ -103,9 +197,6 @@
 .parafo__arriba--espacio{
     margin-top: 60px;
 }
-
-/*A partir de aqui comienzan las class usadas para este tp, lo demas es del proyecto*/
-
 .body__index{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -124,6 +215,25 @@
     font-size: 50px;
     text-decoration: underline;
     margin-bottom: 30px;
+    animation-name: headerIndexAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes headerIndexAparicion {
+    0%{
+        top: -200;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: -75px
+    }
+    100%{
+        top: 0px;
+    }
 }
 .nav__index{
     grid-column-start: 1;
@@ -138,6 +248,25 @@
     margin: auto;
     text-align: left;
     margin-top: 25px;
+    animation-name: navIndexAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes navIndexAparicion {
+    0%{
+        left: -200;
+    }
+    50%{
+        left: -100px;
+    }
+    75%{
+        left: -75px
+    }
+    100%{
+        left: 0px;
+    }
 }
 .nav__itemIndex{
     display: inline-block;
@@ -163,12 +292,50 @@
     width: 400px;
     height: 300px;
     border-radius: 250px;
+    animation-name: imgIndexAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes imgIndexAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .index__textoPosicion{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 8;
+    animation-name: textoIndexAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes textoIndexAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .index__textoDeFoto{
     margin: 20px;
@@ -189,15 +356,25 @@
     color: #f3b229;
     font-style: italic;
     display: block;
+    animation-name: footerIndexAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
 }
-.body__goles{
-    display: grid;
-    grid-row-gap: 8px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: repeat(40 ,2.5%);
-    background-image:url(../assets/img/fondo.png);
-    background-size: 100% 100%;
-    background-attachment: fixed;
+@keyframes footerIndexAparicion {
+    0%{
+        bottom: -200;
+    }
+    50%{
+        bottom: -100px;
+    }
+    75%{
+        bottom: -75px
+    }
+    100%{
+        bottom: 0px;
+    }
 }
 .header__goles{
     grid-column-start: 1;
@@ -208,7 +385,37 @@
     font-size: 30px;
     padding: 5px;
     color: #f3b229;
+    animation-name: headerGolesAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
 }
+@keyframes headerGolesAparicion {
+    0%{
+        top: -200;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: -75px
+    }
+    100%{
+        top: 0px;
+    }
+}
+.body__goles{
+    display: grid;
+    grid-row-gap: 8px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(40 ,2.5%);
+    background-image:url(../assets/img/fondo.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
 .nav__goles{
     grid-column-start: 1;
     grid-column-end: 6;
@@ -218,9 +425,28 @@
     background-color: #0e2b6f;
     opacity: 0.85;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 100%;
     margin: auto;
+    animation-name: navGolesAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes navGolesAparicion {
+    0%{
+        left: -200;
+    }
+    50%{
+        left: -100px;
+    }
+    75%{
+        left: -75px
+    }
+    100%{
+        left: 0px;
+    }
 }
 .nav__item{
     display: inline-block;
@@ -243,7 +469,13 @@
     margin: 15px;
     color: #f3b229;
     padding: 10px;
+    animation-name: tablaAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
 }
+
 .section__tablaClub{
     grid-area: 4 / 1 / 30 / 6;
     height: auto;
@@ -256,6 +488,25 @@
     padding: 10px;
     color: #f3b229;
     padding: 10px;
+    animation-name: tablaAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes tablaAparicion {
+    0%{
+        right: -200;
+    }
+    50%{
+        right: -100px;
+    }
+    75%{
+        right: -75px
+    }
+    100%{
+        right: 0px;
+    }
 }
 .section__titulo{
     padding: 0px;
@@ -286,6 +537,25 @@
     color: #f3b229;
     font-style: italic;
     display: block;
+    animation-name: footerAparicion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    position: relative
+}
+@keyframes footerAparicion {
+    0%{
+        bottom: -200;
+    }
+    50%{
+        bottom: -100px;
+    }
+    75%{
+        bottom: -75px
+    }
+    100%{
+        bottom: 0px;
+    }
 }
 .footer__titulo{
     font-size: 22px;
@@ -348,8 +618,6 @@
     text-align: right;
     padding-right: 10px;
 }
-
-/*Aqui hice mi index responsive en tablet*/
 
 @media screen and (max-width: 768px) {
     .body__index {
